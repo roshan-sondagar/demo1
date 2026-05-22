@@ -8,7 +8,7 @@ for (i = 1; i <= n; i++) {
 
 console.log(arr);
 
-let sum = arr.reduce ((prev , curr) => {
+let sum = arr.reduce ((prev , curr) =>{
     return prev + curr;
 });
 
