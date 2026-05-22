@@ -1,1 +1,2 @@
-console.log("roshan sondagar");
+let comp = ["bloomberg", "microsoft", "uber", "google", "ibm", "netflix"];
+comp.push("amazon");
