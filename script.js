@@ -1,21 +1,4 @@
-let n = prompt("enter a number : ");
+let h2 = document.querySelector("h2");
+console.dir(h2);
 
-let arr = [];
-
-for (i = 1; i <= n; i++) {
-    arr[i - 1] = i;
-}
-
-console.log(arr);
-
-let sum = arr.reduce ((prev , curr) =>{
-    return prev + curr;
-});
-
-console.log(sum);
-
-let factorial = arr.reduce ((prev , curr)=>{
-    return prev * curr;
-});
-
-console.log(factorial);
+h2.innerText = h2.innerText + "from apna college students!"; // concating
