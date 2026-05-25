@@ -1,4 +1,15 @@
-let h2 = document.querySelector("h2");
-console.dir(h2);
+let modeBtn = document.querySelector("#mode");
 
-h2.innerText = h2.innerText + "from apna college students!"; // concating
+let currMode = "light"; // dark
+
+modeBtn.addEventListener("click", () => {
+    if(currMode === "light"){
+        currMode = "black";
+        document.querySelector("body").style.backgroundColor = "black";
+    } else {
+        currMode = "light";
+        document.querySelector("body").style.backgroundColor = "white";
+    };
+    console.log(currMode);
+    
+});
